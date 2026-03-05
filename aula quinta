@@ -6,3 +6,149 @@ L> ( D E R )                                                              /Usuar
 [ JOGOS ]-------------( 1,N )-------São------( 1,N )-----------[ Avaliação ] 
 
 L> nome, ano, Descrição
+
+
+Dia 05/03/2026
+Aula 2
+
+Dados?
+I
+L_> Informações s/ contexto                                  ( IMAGINE UMA PIRAMIDE ) 
+L_> Tudo armazenado                                                      
+L_> Inf. Brutas                                                       Conhecimento ( tomada de decisão ) 
+L_> Abstrações                                                        Inf
+L_> Conjuntos Reg                                                     Dados
+
+Dados: é o elementro em sua forma bruta que por si so não conduz a uma compreeesão de fato ou uma situação.
+
+Informação: é aquilo que se tem através da decodificação de dados
+
+Conhecimento: pode ser considerado informação com proposito ou utilidade
+
+
+                          B.D -> SGBD
+ ________________________^^^^^^^^^^^^_______________________
+( Sistema Aluno ) + ( Sistema funcionario ) + ( Sistema Bib ) 
+-------------------------------------------------------------
+
+Sistema aluno -> BD 1
+Sistema funcionario -> BD 3
+Sistema Bib -> BD 2
+
+Dados não Compartilhados -> Sistemas de gerência de Arquivos
+
+  [ Sistema Academico ] [ Sistema ]  [ Sistema ] 
+
+
+Desvntagens: Muitas 
+
+
+Dados Compartilhados -> Cada informação é armazenada uma unica vez 
+
+                                                  (  Banco de dados dos jogos ) 
+                                                            IIIIIIII
+                                                            VVVVVVVV
+                    ( Banco de dados do RH )  ->     Banco de dados principal   <- ( banco de dados do financeiro ) 
+                                                            ^^^^^^^^^
+                                                            IIIIIIIII
+                                                  ( Banco de dados de usuários ) 
+
+
+Dados: Fatos, conhecidos que podem ser registrados e possuem significado Implicito
+ex:. Nome, CPF, Telefone
+
+Banco de Dados ( BD ):
+
+-> É um monte de informações que estão organizadas e têm relação entre si, formando algo que faz sentido.
+
+-> Conceito indepentente da tecnologia 
+
+-> Reflete algum aspecto do mundo real, às vezes chamado de minimyundo ou de universo de discurso;
+
+OBS:. Uma variedade aleatoria de dados não pode ser corretamente chamada de dados. 
+
+                                         /[ BD ]   <-----Cliente------ [ CPF | Nome ] 
+                                        /                              [ 123 | Maria]
+                                       V                               [ 456 | João ] 
+                                   [ SGBD ] -> BD2                     
+
+
+Sistemas Gerenciadores de Banco de Dados ( SGBD's ) 
+I
+L_> um conjunto de programas que permitem armazenar, modificar e extrair informações.
+I
+L_> Software que automatiza a manipulação ( definição, recuperação e alteração ) sobre os dados.
+
+Evolução dos Banco de Dados
+
+   [     ]
+
+
+Vantagens da utilização de um banco de dados: 
+
+-> mts
+
+Caracteristicas de um Banco de Dados
+I
+I
+L_> Natureza autodescritiva: [ metadados ] definidos no catálogo
+L_> Isolamento entre Programas e Dados: ex:. Adição de novo atributo ( Campo ) 
+L_> Suporte a múltiplas visões dos Dados: Oferecer perspectiva de visões aos usuários.
+L_> Controle de concorência
+L_> Transações concorrentes
+
+Estrutura de um Banco de Dados
+
+  Instância / Ocorrências / Estado
+    L_> Coleção de dados armazenados no Banco de Dados em um Determinado Instante 
+    L_> Próprio Banco de Dados
+Esquema
+    L_> é o Projeto geral do BD
+
+Atores em um Banco de Dados
+
+  Administradores de Banco de Dados ( DBA ) 
+    L_> o Banco de Dados é o recurso principal
+    L_> Fornece o suporte técnico 
+  Administrador de Dados
+    L_> Projetistas de Banco de Dados ( ADs ) 
+    L> [    ]
+
+
+Modelagem: 
+
+Modelo conceitual
+
+  L_> Modelo de Dados Abstrato ( esconde alguns Detalhes ) 
+  L_> Representação do mundo natural 
+
+Modelo Lógico
+  L_> Representa a estrutura de dados depentende de um Paradigma
+
+        Produto
+        [ codprod ] [ descrprod ] [ preçoprod ] [ codtipoprod ] 
+        [     1   ] [ PC Note   ] [   2.500   ] [       1     ]  
+
+        Tipodeproduto
+        [ codtipoprod
+
+Modelo fisico 
+  L_> Representação gráfica do detalhamento físico das estruturas dos dados que o banco de dados ira armazenar 
+  L_> Dependente do SGBD em que será implementado. 
+
+            Livros                  Compra 
+                      []                 [] 
+Niveis de Abstração
+
+L_>  Relação de dependencia - Modelo x Paradigma x SGBD 
+
+      Paradigma/Modelo | SGBD Específico 
+[ Modelo Conceitual |            |            ] 
+[                   |            |            ]
+
+
+
+
+Etapas de criação de um banco de dados 
+
+-> define mt coisa até chegar no banco de dados
