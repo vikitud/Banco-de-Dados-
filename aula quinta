@@ -162,3 +162,7 @@ Etapas de criação de um banco de dados
 -- ou opcionalidade, restrições)
 
 -- = comentario
+
+*
+CREATE DATABASE empresa; -- cria a base de dados
+USE empresa; -- habilitar a base de dados, deixando ela em destaque ( como se fosse em niggrito )
