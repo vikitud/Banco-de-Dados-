@@ -152,3 +152,13 @@ L_>  Relação de dependencia - Modelo x Paradigma x SGBD
 Etapas de criação de um banco de dados 
 
 -> define mt coisa até chegar no banco de dados
+/
+12/03/2026
+/
+-- SQL (DDL, DTL, DQL, DML,   etc... )
+-- DDL (CREATE, ALTER, DROP)
+-- CREATE - criar objetos (tabelas) 
+-- criar tabelas (nome,tipo de dados, obrigatoriedade
+-- ou opcionalidade, restrições)
+
+-- = comentario
