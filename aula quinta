@@ -165,4 +165,4 @@ Etapas de criação de um banco de dados
 
 *
 CREATE DATABASE empresa; -- cria a base de dados
-USE empresa; -- habilitar a base de dados, deixando ela em destaque ( como se fosse em niggrito )
+USE empresa; -- habilitar a base de dados, deixando ela em destaque ( como se fosse em negrito )
