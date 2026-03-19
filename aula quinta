@@ -225,3 +225,4 @@ create table pessoa (
 create table produto ( 
 cod int,
 	tipo varchar(20) not null,
+	id_p int,
