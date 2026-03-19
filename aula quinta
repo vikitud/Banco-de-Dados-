@@ -229,3 +229,20 @@ cod int,
 	exemplo varchar(10),
 foreign key(id_p) references pessoa(id) On Delete Restrict
 );
+
+*
+
+( outra pasta gerada ) 
+
+*
+describe produto;
+alter table produto add primary key(cod);
+alter table produto drop column exemplo;
+alter table produto add column validade date;
+alter table produto modify tipo varchar(50);
+alter table produto modify tipo bigint;
+alter table produto change tipo descricao varchar(20);
+alter table produto drop primary key; --não precisa rodar!
+rename table pessoa to cliente;
+
+*
