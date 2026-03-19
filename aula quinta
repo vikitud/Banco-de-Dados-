@@ -207,4 +207,11 @@ foreign key(comprador) references cliente(id)
 
 
 *
-a
+
+
+19/03/2026
+
+*
+
+
+create database empresa; -- cria a base de dados
