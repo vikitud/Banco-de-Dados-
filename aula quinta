@@ -215,3 +215,4 @@ foreign key(comprador) references cliente(id)
 
 
 create database empresa; -- cria a base de dados
+use empresa; -- habilita a base de dados
