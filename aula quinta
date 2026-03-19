@@ -246,3 +246,14 @@ alter table produto drop primary key; --não precisa rodar!
 rename table pessoa to cliente;
 
 *
+
+
+describe cliente;
+insert into cliente (id) values (5);
+
+insert into produto (cod,descricao,id_p,validade)
+values (101,'Arroz',2,'2026-3-20');
+insert into produto (cod,descricao, validade) 
+values (102,'manteiga','2027-12-20');
+
+*
