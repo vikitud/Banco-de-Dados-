@@ -219,3 +219,4 @@ use empresa; -- habilita a base de dados
 -- criar tabela pessoa;
 create table pessoa (
 	id int primary key,
+	nome char(5)
