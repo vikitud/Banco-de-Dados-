@@ -247,6 +247,10 @@ rename table pessoa to cliente;
 
 *
 
+( outra pasta gerada ) 
+
+*
+
 
 describe cliente;
 insert into cliente (id) values (5);
@@ -255,5 +259,13 @@ insert into produto (cod,descricao,id_p,validade)
 values (101,'Arroz',2,'2026-3-20');
 insert into produto (cod,descricao, validade) 
 values (102,'manteiga','2027-12-20');
+
+--Update ( atualizar )
+--Delete ( deletar )
+
+select * from cliente
+select * from produto
+
+update produto set descricao='Margarina
 
 *
