@@ -266,6 +266,10 @@ values (102,'manteiga','2027-12-20');
 select * from cliente
 select * from produto
 
-update produto set descricao='Margarina
+update produto set descricao='Margarina';
+set sql_safe_updates=0;
 
 *
+
+update produto set descricao='Arroz'
+where cod=101;
