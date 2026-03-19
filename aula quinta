@@ -222,3 +222,4 @@ create table pessoa (
 	nome char(5)
 );
 -- criar a tabela produtos:
+create table produto ( 
