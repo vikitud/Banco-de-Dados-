@@ -220,3 +220,5 @@ use empresa; -- habilita a base de dados
 create table pessoa (
 	id int primary key,
 	nome char(5)
+);
+-- criar a tabela produtos:
