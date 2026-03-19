@@ -273,3 +273,12 @@ set sql_safe_updates=0;
 
 update produto set descricao='Arroz'
 where cod=101;
+
+-- delete from tabela where condições 
+delete from cliente where id=4;
+select * from cliente;
+
+delete from cliente where id=2;
+
+drop table produto;
+drop database empresa;
