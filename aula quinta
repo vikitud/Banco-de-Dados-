@@ -223,3 +223,4 @@ create table pessoa (
 );
 -- criar a tabela produtos:
 create table produto ( 
+cod int,
