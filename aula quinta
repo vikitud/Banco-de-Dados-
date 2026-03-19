@@ -227,3 +227,5 @@ cod int,
 	tipo varchar(20) not null,
 	id_p int,
 	exemplo varchar(10),
+foreign key(id_p) references pessoa(id) On Delete Restrict
+);
