@@ -282,3 +282,21 @@ delete from cliente where id=2;
 
 drop table produto;
 drop database empresa;
+
+
+26/03/2026
+
+Prova: 
+
+10 questões, objetivas no papel, e de marcar, e contextualizados ( não vai ter teoria, so as instruções ) 
+
+
+	DDL
+		-> create
+		-> Alter
+		-> Drop 
+	DML
+		-> Insert
+		-> Update
+		-> delete
+
