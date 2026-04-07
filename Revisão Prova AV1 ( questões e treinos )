@@ -1,0 +1,140 @@
+ SIMULADO teste
+1.
+
+Dados são:
+A) Informação organizada
+B) Informação com significado
+C) Informação bruta
+D) Conhecimento aplicado
+
+2.
+
+Qual alternativa é um SGBD?
+A) Excel
+B) MySQL
+C) Word
+D) Paint
+
+3.
+
+Qual comando cria uma tabela?
+A) SELECT
+B) INSERT
+C) CREATE
+D) DELETE
+
+4.
+
+Qual comando altera uma tabela?
+A) DROP
+B) ALTER
+C) UPDATE
+D) SELECT
+
+5.
+
+Qual comando insere dados?
+A) INSERT
+B) CREATE
+C) DROP
+D) ALTER
+
+6.
+
+Primary Key serve para:
+A) Apagar dados
+B) Identificar unicamente
+C) Criar tabelas
+D) Atualizar registros
+
+7.
+
+Foreign Key serve para:
+A) Apagar tabelas
+B) Identificar dados
+C) Relacionar tabelas
+D) Criar banco
+
+8.
+
+DDL significa:
+A) Manipulação de dados
+B) Definição de dados
+C) Exclusão de dados
+D) Atualização de dados
+
+9.
+
+Qual é DML?
+A) CREATE
+B) ALTER
+C) INSERT
+D) DROP
+
+10.
+
+Qual NÃO é DDL?
+A) CREATE
+B) DROP
+C) ALTER
+D) INSERT
+
+ EXERCÍCIOS (PRÁTICA)
+ 1. Criar banco
+
+->  Crie um banco chamado:
+
+create database escola;
+->  2. Criar tabela aluno
+
+Com:
+
+id (PK)
+nome obrigatório
+idade
+->  3. Inserir dados
+
+Adicione:
+
+João
+Maria
+->  4. Criar tabela curso
+
+Com:
+
+id
+nome
+id do aluno (FK)
+  5. Fazer SELECT
+
+Mostrar tudo
+
+ 6. UPDATE
+
+Mudar nome de João para Pedro
+
+ 7. DELETE
+
+Apagar Maria
+
+ GABARITO DO SIMULADO
+
+1 → C
+2 → B
+3 → C
+4 → B
+5 → A
+6 → B
+7 → C
+8 → B
+9 → C
+10 → D
+
+ DICA FINAL (IMPORTANTE)
+
+Se tu só decorar isso aqui, tu passa:
+
+->  DDL = estrutura
+->  DML = dados
+->  PK = identifica
+->  FK = conecta
