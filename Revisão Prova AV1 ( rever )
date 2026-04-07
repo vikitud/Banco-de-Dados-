@@ -1,16 +1,14 @@
-Beleza — vou te explicar isso como se fosse **um jogo + vida real + nível bem fácil mesmo**, tipo explicando pra alguém que nunca viu isso na vida 🤝
 
----
 
-# 🧠 1. O que são Dados, Informação e Conhecimento?
+  1. O que são Dados, Informação e Conhecimento?
 
-## 🍞 Exemplo bem besta (padaria)
+  Exemplo bem besta (padaria)
 
-* **Dados** 👉 "Pão, 5, R$2"
-* **Informação** 👉 "Você comprou 5 pães por R$2 cada"
-* **Conhecimento** 👉 "Se continuar assim, você gasta muito com pão 😅"
+* **Dados** -> "Pão, 5, R$2"
+* **Informação** -> "Você comprou 5 pães por R$2 cada"
+* **Conhecimento** -> "Se continuar assim, você gasta muito com pão :D"
 
-👉 Resumão:
+! Resumão:
 
 * **Dados** = bagunça
 * **Informação** = dados organizados
@@ -18,29 +16,29 @@ Beleza — vou te explicar isso como se fosse **um jogo + vida real + nível bem
 
 ---
 
-# 🗂️ 2. O que é Banco de Dados (BD)?
+# ! 2. O que é Banco de Dados (BD)?
 
 Imagina isso:
 
-## 🧍‍♂️ Agenda do celular
+## ! Agenda do celular
 
 * Nome
 * Telefone
 * Email
 
-👉 Isso é um **Banco de Dados**
+! Isso é um **Banco de Dados**
 
 ✔ Tudo organizado
 ✔ Tem relação
 ✔ Faz sentido
 
-👉 NÃO é banco de dados:
+! NÃO é banco de dados:
 
 * Um monte de coisa jogada sem sentido
 
 ---
 
-# 🤖 3. O que é SGBD?
+# ! 3. O que é SGBD?
 
 SGBD = **programa que mexe no banco**
 
@@ -49,18 +47,18 @@ Exemplo:
 * MySQL
 * Workbench (que tu usa)
 
-👉 Ele serve pra:
+! Ele serve pra:
 
 * Criar
 * Editar
 * Apagar
 * Buscar dados
 
-💡 Tipo um “controle do banco”
+! Tipo um “controle do banco”
 
 ---
 
-# 🎮 4. Exemplo do teu modelo (Jogos)
+# ! 4. Exemplo do teu modelo (Jogos)
 
 Você fez:
 
@@ -68,12 +66,12 @@ Você fez:
 * Avaliação
 * Usuário
 
-👉 Tradução simples:
+-> Tradução simples:
 
 * Um **jogo pode ter várias avaliações**
 * Um **usuário pode fazer várias avaliações**
 
-👉 Tipo:
+->  Tipo:
 
 | Jogo | Avaliação |
 | ---- | --------- |
@@ -82,23 +80,23 @@ Você fez:
 
 ---
 
-# 🧱 5. Modelo Conceitual, Lógico e Físico
+# ! 5. Modelo Conceitual, Lógico e Físico
 
-## 🍔 Pensa num hambúrguer:
+## ! Pensa num hambúrguer:
 
-### 🧠 Conceitual (ideia)
+### ! Conceitual (ideia)
 
 "Quero um hambúrguer com carne e queijo"
 
-👉 Só ideia, sem detalhe
+->  Só ideia, sem detalhe
 
 ---
 
-### 📄 Lógico (organização)
+### ! Lógico (organização)
 
 "Pão, carne, queijo, molho"
 
-👉 Já começa a organizar
+->  Já começa a organizar
 
 ---
 
@@ -106,41 +104,41 @@ Você fez:
 
 "Colocar carne na chapa, montar, etc"
 
-👉 Agora é execução real
+->  Agora é execução real
 
 ---
 
-# 📊 6. Estrutura do Banco
+# ! 6. Estrutura do Banco
 
-## 🧊 Esquema
+## ! Esquema
 
-👉 É o **projeto**
+->  É o **projeto**
 
 Tipo:
 "Minha tabela vai ter nome, idade, cpf"
 
 ---
 
-## 📸 Instância
+## ! Instância
 
-👉 É o que tem dentro AGORA
+->  É o que tem dentro AGORA
 
 Tipo:
 "João, 20 anos, 123456"
 
 ---
 
-# 👨‍💻 7. Quem trabalha com isso?
+# ! 7. Quem trabalha com isso?
 
-* **DBA** 👉 manda no banco
-* **Dev** 👉 usa o banco
-* **Usuário** 👉 só usa o sistema
+* **DBA** ->  manda no banco
+* **Dev** ->  usa o banco
+* **Usuário** ->  só usa o sistema
 
 ---
 
-# ⚙️ 8. SQL (a parte importante pra prova 🔥)
+# ! 8. SQL (a parte importante pra prova !)
 
-## 📌 DDL = mexe na estrutura
+## ! DDL = mexe na estrutura
 
 ### CREATE (criar)
 
@@ -148,7 +146,7 @@ Tipo:
 create database empresa;
 ```
 
-👉 Criou o banco
+->  Criou o banco
 
 ---
 
@@ -161,7 +159,7 @@ create table cliente (
 );
 ```
 
-👉 Criou tabela
+->  Criou tabela
 
 ---
 
@@ -171,7 +169,7 @@ create table cliente (
 alter table cliente add column idade int;
 ```
 
-👉 Adicionou coluna
+->  Adicionou coluna
 
 ---
 
@@ -181,11 +179,11 @@ alter table cliente add column idade int;
 drop table cliente;
 ```
 
-👉 Deletou tudo 💀
+->  Deletou tudo !
 
 ---
 
-# ✏️ 9. DML = mexe nos dados
+# ->  9. DML = mexe nos dados
 
 ## INSERT (colocar dados)
 
@@ -193,7 +191,7 @@ drop table cliente;
 insert into cliente (id, nome) values (1, 'Victor');
 ```
 
-👉 Adicionou pessoa
+->  Adicionou pessoa
 
 ---
 
@@ -203,7 +201,7 @@ insert into cliente (id, nome) values (1, 'Victor');
 select * from cliente;
 ```
 
-👉 Mostra tudo
+->  Mostra tudo
 
 ---
 
@@ -213,7 +211,7 @@ select * from cliente;
 update cliente set nome='João' where id=1;
 ```
 
-👉 Mudou o nome
+->  Mudou o nome
 
 ---
 
@@ -223,15 +221,15 @@ update cliente set nome='João' where id=1;
 delete from cliente where id=1;
 ```
 
-👉 Removeu pessoa
+->  Removeu pessoa
 
 ---
 
-# 🔗 10. Chave Primária e Estrangeira
+# ! 10. Chave Primária e Estrangeira
 
-## 🔑 Primary Key (PK)
+## ! Primary Key (PK)
 
-👉 É o **ID único**
+->  É o **ID único**
 
 Ex:
 
@@ -244,9 +242,9 @@ id int primary key
 
 ---
 
-## 🔗 Foreign Key (FK)
+## ! Foreign Key (FK)
 
-👉 Liga tabelas
+->  Liga tabelas
 
 Ex:
 
@@ -254,12 +252,12 @@ Ex:
 foreign key(comprador) references cliente(id)
 ```
 
-👉 Tradução:
+->  Tradução:
 "Esse comprador tem que existir na tabela cliente"
 
 ---
 
-# 🧠 11. Regras importantes
+ 11. Regras importantes
 
 * `NOT NULL` = obrigatório
 * `NULL` = opcional
@@ -267,9 +265,9 @@ foreign key(comprador) references cliente(id)
 
 ---
 
-# ⚠️ 12. Pegadinhas de prova
+# ! 12. Pegadinhas de prova
 
-💀 Professor AMA isso:
+ Professor AMA isso:
 
 * Diferença DDL vs DML
 * PK vs FK
@@ -278,7 +276,7 @@ foreign key(comprador) references cliente(id)
 
 ---
 
-# 🧪 13. Exemplo COMPLETO (pra fixar)
+#  13. Exemplo COMPLETO (pra fixar)
 
 ```sql
 create table cliente (
@@ -294,14 +292,14 @@ create table produto (
 );
 ```
 
-👉 Tradução:
+->  Tradução:
 
 * Cliente existe
 * Produto pertence a cliente
 
 ---
 
-# 🚀 RESUMO FINAL (pra decorar rápido)
+# ! RESUMO FINAL para eu não esquescer do jeito que so besta:
 
 * BD = dados organizados
 * SGBD = programa que controla
@@ -309,12 +307,3 @@ create table produto (
 * DML = dados
 * PK = identificação única
 * FK = ligação entre tabelas
-
----
-
-Se quiser, eu posso:
-✅ Fazer um **simulado igual prova**
-✅ Ou um **resumão de 1 página pra decorar antes da prova**
-✅ Ou te mandar **exercícios pra treinar**
-
-Só fala 👍
