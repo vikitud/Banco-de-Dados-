@@ -4,14 +4,14 @@
 Dados são:
 A) Informação organizada
 B) Informação com significado
-C) Informação bruta
+C) Informação bruta --
 D) Conhecimento aplicado
 
 2.
 
 Qual alternativa é um SGBD?
 A) Excel
-B) MySQL
+B) MySQL --
 C) Word
 D) Paint
 
@@ -20,21 +20,21 @@ D) Paint
 Qual comando cria uma tabela?
 A) SELECT
 B) INSERT
-C) CREATE
+C) CREATE --
 D) DELETE
 
 4.
 
 Qual comando altera uma tabela?
 A) DROP
-B) ALTER
+B) ALTER --
 C) UPDATE
 D) SELECT
 
 5.
 
 Qual comando insere dados?
-A) INSERT
+A) INSERT --
 B) CREATE
 C) DROP
 D) ALTER
@@ -43,7 +43,7 @@ D) ALTER
 
 Primary Key serve para:
 A) Apagar dados
-B) Identificar unicamente
+B) Identificar unicamente --
 C) Criar tabelas
 D) Atualizar registros
 
@@ -52,14 +52,14 @@ D) Atualizar registros
 Foreign Key serve para:
 A) Apagar tabelas
 B) Identificar dados
-C) Relacionar tabelas
+C) Relacionar tabelas --
 D) Criar banco
 
 8.
 
 DDL significa:
 A) Manipulação de dados
-B) Definição de dados
+B) Definição de dados --
 C) Exclusão de dados
 D) Atualização de dados
 
@@ -68,7 +68,7 @@ D) Atualização de dados
 Qual é DML?
 A) CREATE
 B) ALTER
-C) INSERT
+C) INSERT --
 D) DROP
 
 10.
@@ -77,7 +77,7 @@ Qual NÃO é DDL?
 A) CREATE
 B) DROP
 C) ALTER
-D) INSERT
+D) INSERT --
 
  EXERCÍCIOS (PRÁTICA)
  1. Criar banco
