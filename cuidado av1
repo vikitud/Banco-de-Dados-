@@ -1,0 +1,181 @@
+Beleza, vou organizar **todos os assuntos que provavelmente vão cair na prova** com base no que apareceu no teu curso 👇 (bem direto pra tu estudar sem perder tempo)
+
+---
+
+# 📚 **ASSUNTOS DA PROVA – BANCO DE DADOS**
+
+## 🧠 **1. Introdução a Banco de Dados**
+
+* O que é um banco de dados
+* SGBD (Sistema Gerenciador de Banco de Dados)
+* Vantagens (organização, segurança, etc.)
+* Exemplos (MySQL, PostgreSQL, Oracle)
+
+---
+
+## 🧩 **2. Modelo Entidade-Relacionamento (ER)**
+
+* Entidade (ex: Cliente, Produto)
+* Atributos (nome, idade, etc.)
+* Relacionamentos
+* Cardinalidade:
+
+  * 1:1
+  * 1:N
+  * N:N
+* Entidade forte x fraca
+
+👉 Isso aqui costuma cair MUITO em prova
+
+---
+
+## 🏗️ **3. Construção de Modelos ER**
+
+* Como montar um diagrama ER
+* Identificar entidades e relacionamentos a partir de texto (igual teu trabalho de POO)
+* Atributos chave (chave primária)
+
+---
+
+## 🔄 **4. Modelo Relacional**
+
+* Transformar ER em tabelas
+
+* Tabela = entidade
+
+* Coluna = atributo
+
+* Linha = registro
+
+* Chaves:
+
+  * **Primária (PK)**
+  * **Estrangeira (FK)**
+
+---
+
+## 🔁 **5. Transformação ER → Relacional**
+
+* Como converter:
+
+  * Entidade → tabela
+  * Relacionamento 1:N → FK
+  * Relacionamento N:N → tabela intermediária
+
+👉 Isso também é clássico de prova
+
+---
+
+## 🧼 **6. Normalização**
+
+* Objetivo: evitar redundância
+* Formas normais (mais comuns):
+
+  * 1FN
+  * 2FN
+  * 3FN
+
+👉 Geralmente cobram conceito, não muito cálculo
+
+---
+
+## 💻 **7. SQL – DDL (estrutura do banco)**
+
+Comandos principais:
+
+```sql
+CREATE TABLE
+ALTER TABLE
+DROP TABLE
+```
+
+Exemplo:
+
+```sql
+CREATE TABLE cliente (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100)
+);
+```
+
+---
+
+## ✏️ **8. SQL – DML (manipulação de dados)**
+
+Comandos:
+
+```sql
+INSERT
+UPDATE
+DELETE
+```
+
+Exemplo:
+
+```sql
+INSERT INTO cliente VALUES (1, 'Pedro');
+
+UPDATE cliente SET nome = 'João' WHERE id = 1;
+
+DELETE FROM cliente WHERE id = 1;
+```
+
+---
+
+## 🔍 **9. SELECT (consulta de dados)**
+
+* Buscar dados:
+
+```sql
+SELECT * FROM cliente;
+```
+
+* Com filtro:
+
+```sql
+SELECT * FROM cliente WHERE id = 1;
+```
+
+👉 Muito importante
+
+---
+
+## 🔗 **10. Restrições (Constraints)**
+
+* PRIMARY KEY
+* FOREIGN KEY
+* NOT NULL
+* UNIQUE
+
+---
+
+# 🚨 **O QUE MAIS CAI (prioridade alta)**
+
+Se tu tiver pouco tempo, foca nisso:
+
+🔥 Modelo ER
+🔥 Transformação ER → Relacional
+🔥 SQL (CREATE, INSERT, SELECT)
+🔥 Chaves (PK e FK)
+
+---
+
+# 💡 Dica rápida (nível prova)
+
+Se cair questão tipo:
+
+> “Crie o modelo para um sistema de vendas”
+
+👉 Sempre pensa assim:
+
+* Cliente → entidade
+* Produto → entidade
+* Pedido → entidade
+* Relacionamento entre eles
+
+---
+
+Se quiser, posso:
+
+* montar um **resumo de 1 página pra tu decorar antes da prova**
+* ou fazer **questões estilo prova com resposta** pra treinar 👀
