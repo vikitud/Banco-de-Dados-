@@ -31,8 +31,20 @@ select* from tb_cliente where uf in ('ba', 'rn','pb');
 select* from tb_cliente where uf not in ('ba','rn','pb');
 
 select * from tb_vendedor;
-select nome from tb_vendedor where
-nome like 'e%';
-select nome from tb_vendedor where
-nome like '%a';
+select nome from tb_vendedor where nome like 'e%';
+select nome from tb_vendedor where nome like '%a';
 select nome from tb_vendedor where nome like 'r%a';
+select nome from tb_vendedor where nome like '%ca%1';
+select nome from tb_vendedor where nome like '%i_a';
+
+select * from tb_fabricante;
+insert into tb_fabricante(codigo,nome) valuesvalues (500,'NINGUEM SUGERIU'),(600,'TODOS CALADOS');
+select nome from tb_vendedor where salario is null;
+select nome from tb_vendedor where salario is not null;
+select * from tb_produto;
+select nome, preco from tb_produto where preco>1000 and preco<5000;
+select nome, preco from tb_produto where preco between 1000 and 5000;
+-- between serve para intervalos 
+select nome, preco from tb_produto where preco not between 1000 and 5000;
+select * from tb_pedido;
+select tipopagamento,formapagmento from tb_pedido where dataembarque between '2018-01-01' and '2018-06-30';
