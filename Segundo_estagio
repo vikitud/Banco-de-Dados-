@@ -1,0 +1,38 @@
+-- SELECT
+select codigo,nome,preco,fabricante from
+tb_produto;
+select nome, preco from tb_produto;
+select preco, nome from tb_produto;
+select nome from tb_produto;
+select * from tb_produto;
+select nome, preco, 'sim' desconto from tb_produto;
+select nome, preco from tb_produto;
+select nome as NOME2, preco as PREÇO2 from tb_produto;
+
+select nome as NOME_DO_PRODUTO, preco as 'PRECO DO PRODUTO' from tb_produto; select bairro from tb_cliente;
+
+
+order by nome asc;
+select nome, salario from tb_vendedor
+order by nome desc;
+select nome, salario from tb_vendedor
+order by 
+select nome, salario from tb_vendedor
+order by nome,salario asc;
+
+-- condição
+
+select * from tb_clientes
+select * from tb_cliente where sexo='f';
+select * from tb_cliente where sexo='f' and uf='ba';
+select * from tb_cliente where (uf='ba' or uf= 'pb' or uf='rn') and sexo='f';
+
+select* from tb_cliente where uf in ('ba', 'rn','pb');
+select* from tb_cliente where uf not in ('ba','rn','pb');
+
+select * from tb_vendedor;
+select nome from tb_vendedor where
+nome like 'e%';
+select nome from tb_vendedor where
+nome like '%a';
+select nome from tb_vendedor where nome like 'r%a';
