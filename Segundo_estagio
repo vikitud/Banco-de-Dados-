@@ -48,3 +48,13 @@ select nome, preco from tb_produto where preco between 1000 and 5000;
 select nome, preco from tb_produto where preco not between 1000 and 5000;
 select * from tb_pedido;
 select tipopagamento,formapagmento from tb_pedido where dataembarque between '2018-01-01' and '2018-06-30';
+order by telefone desc;
+
+-- funções agregadas
+
+select count(nome)  from tb_cliente;
+select count(*)     from tb_cliente;
+select sum(salario) from tb_vendedor;
+select max(salario) from tb_vendedor;
+select min(salario) from tb_vendedor;
+select avg(salario) from tb_vendedor;
