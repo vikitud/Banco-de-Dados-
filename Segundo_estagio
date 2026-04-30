@@ -58,3 +58,37 @@ select sum(salario) from tb_vendedor;
 select max(salario) from tb_vendedor;
 select min(salario) from tb_vendedor;
 select avg(salario) from tb_vendedor;
+
+
+aula 30/04
+
+
+select * from editora;
+select * from assunto;
+select * from livro;
+
+select count(*) from livro;
+select count(*) from livro group by assunto;
+select assunto,count(*) from livro group by assunto;
+select assunto,avg(valor) from livro group by assunto;
+
+select titulo from livro where assuntos='bd';
+
+select assunto,avg(valor)  from livro group by assunto having assunto in ('bd','pr');
+select assunto,avg(valor) from livro group by assunto having assunto not in ('bd','pr');
+
+-- subconsulta
+select max(valor) from livro;
+select valor from livro where assunto='bd';
+
+select titulo, valor, ano from livro where valor=65;
+select min(valor) from livro where valor = (select min(valor) from livro);
+
+select valor from livro where valor<100;
+
+select titulo, valor, ano from livro where valor = (select valor from livro where valor<100);
+
+-- consultas + 1 tabela;
+
+select titulo,valor,nome from editora, livro where codigo=editora;
+
