@@ -62,6 +62,7 @@ select avg(salario) from tb_vendedor;
 
 aula 30/04
 
+*
 
 select * from editora;
 select * from assunto;
@@ -92,3 +93,44 @@ select titulo, valor, ano from livro where valor = (select valor from livro wher
 
 select titulo,valor,nome from editora, livro where codigo=editora;
 
+*
+
+select * from editora;
+select * from assunto;
+select * from livro;
+
+select count(*) from livro;
+select count(*) from livro group by assunto;
+select assunto,count(*) from livro group by assunto;
+select assunto,avg(valor) from livro group by assunto;
+
+select titulo from livro where assuntos='bd';
+
+select assunto,avg(valor)  from livro group by assunto having assunto in ('bd','pr');
+select assunto,avg(valor) from livro group by assunto having assunto not in ('bd','pr');
+
+-- subconsulta
+select max(valor) from livro;
+select valor from livro where assunto='bd';
+
+select titulo, valor, ano from livro where valor=65;
+select min(valor) from livro where valor = (select min(valor) from livro);
+
+select valor from livro where valor<100;
+
+select titulo, valor, ano from livro where valor = (select valor from livro where valor<100);
+
+-- consultas + 1 tabela;
+
+select titulo,valor,nome from editora, livro where codigo=editora;
+select livro.titulo,livro,editora,nome from editora,livro where editora.codigo=livro.editora;
+select livro.titulo,livro,editora,nome from editora,livro where editora.codigo=livro.editora and livro.valor>100;
+
+select l.titulo, l.ano,e.nome,e.nome,a.nome from livros l,editora e, assunto a where e.codigo=l.editora and a.sigla=l.assunto;
+
+select l.titulo, a.nome, l.valor, l.ano from livro l inner join assunto a on a.sigla=l.assuntowhere l.ano=2014;
+
+select l.titulo'TITULO', l.valor ' PREÇO ', l.ano 'PUBLICAÇÃO', e.nome 'EDITORA', a.nome 'CONTEÚDO' from livro l inner join editora e inner join assunto a on e.codigo=l.editora and a.sigla=l.assunto where l.valor=(select max(valor) from livro);
+
+
+*
