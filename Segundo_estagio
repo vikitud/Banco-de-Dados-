@@ -134,3 +134,47 @@ select l.titulo'TITULO', l.valor ' PREÇO ', l.ano 'PUBLICAÇÃO', e.nome 'EDITO
 
 
 *
+
+
+-- Stored procedure ( PRocedimentos Armazenados )
+/*
+- COmpostos por instruções SQL ( select, insert, update)
+- compilados e Armazenados no SERVIDOR
+- Executados por outros procedimentos ou gatilhos
+- Aceitam variáveis e fluxos lógicos
+- Facilitar a manutenção, reduz a quantidadade de alterações no programa
+- Aceitam parâmetros
+- Existem dois tipos de procedimentos:
+ * Servidor (rotinas administrativas)
+ * Usuário (criadas pelos administradores)
+ - Sintaxe: create procedure nomeprecedimento(parâmetro)
+	instruções SQL
+*/
+create procedure procedimento1()
+select * from assunto; 
+
+call procedimento1();
+
+create procedure procedimento2()
+select 'Acesso Não Autorizado' as Aviso;
+call procedimento2();
+
+select aqui
+
+delimiter @
+create procedure sp_procedimento3()
+select l.titulo 'Titulo', l.valor 'Preco',
+l.assunto 'Conteúdo', e.nome 'Editora' from livro l inner join editora e on e.codigo=l.editora where l.ano=2014; 
+@
+
+call sp_procedimento3();
+
+delimiter @
+create procedure sp_procedimento3()
+select l.titulo 'Título', l.valor 'Preço',
+l.assunto 'Conteúdo', e.nome 'Editora'
+from livro l inner join editora e on e.codigo=l.editora where l.ano=2014;
+@
+
+
+*
